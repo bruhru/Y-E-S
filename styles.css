@@ -1,0 +1,164 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212; /* Deep black background */
+    text-align: center;
+    color: #ffcc00; /* Yellow text */
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(45deg, #ff8800, #ff5500); /* Gradient for a modern look */
+    padding: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+
+/* Main Content Box */
+.container {
+    width: 80%;
+    margin: auto;
+    background: #1e1e1e; /* Dark gray box */
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(255, 136, 0, 0.5);
+    border: 2px solid #ff8800; /* Orange border */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect on container */
+.container:hover {
+    transform: translateY(-10px);
+}
+
+/* Image Styling */
+img {
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 15px;
+    border-radius: 12px;
+    background: #333;
+    box-shadow: 0 4px 15px rgba(255, 136, 0, 0.4);
+}
+
+/* Input & Select Styling */
+input, textarea, select {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: #222; /* Dark input fields */
+    color: white;
+    transition: 0.3s ease;
+}
+
+/* Glow Effect on Focus */
+input:focus, textarea:focus, select:focus {
+    background: #333;
+    box-shadow: 0 0 15px rgba(255, 136, 0, 0.8);
+}
+
+/* 🔥 Modern Button */
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #ffcc00, #ff8800);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 20px rgba(255, 136, 0, 0.5);
+}
+
+/* Button Hover - Neon Effect */
+button:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(45deg, #ff8800, #ff5500);
+    box-shadow: 0 7px 30px rgba(255, 85, 0, 0.7);
+    transform: scale(1.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    background: #222;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #ff8800;
+}
+
+/* Table Header & Cells */
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid rgba(255, 204, 0, 0.2);
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ff8800;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background: #ff5500; /* Change on hover */
+}
+
+/* Social Media Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect on Links */
+a:hover {
+    color: #000000;
+    transform: scale(1.2);
+}
